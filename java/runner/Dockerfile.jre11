@@ -32,7 +32,7 @@ LABEL name="ubi-jre11-minimal" \
       release="11" \
       run="docker run --rm -ti <image_name:tag> /bin/bash" \
       summary="AdoptOpenJDK OCI Image for OpenJDK with hotspot and ubi-minimal for runs Java applications" \
-      description="For more information on this image please see https://github.com/AdoptOpenJDK/openjdk-docker/blob/master/README.md"
+      description="For more information on this image please see https://github.com/DemonAzteck/oci-images/tree/main/java/runner"
 
 ENV JAVA_VERSION jdk-11.0.11+9
 
