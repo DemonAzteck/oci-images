@@ -4,8 +4,11 @@ Custom Images for Java11 Runners
 Image build with default charset _en_US.UTF-8_
 
 WORKDIR ***/opt/app***
+
 ENTRYPOINT _/bin/bash_
+
 CMD _java_runner.sh_
+
 EXPOSED 8080 8443 8778
 
 |Environment Vars|Description|
