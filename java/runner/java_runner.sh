@@ -31,7 +31,7 @@ else
 	then	
 		echo "Jar files: ${filesnum}, you must be set JAR_APP"
 	else
-		echo "INFO exec java $JRE_OPTION $JRE_CP -jar $jarfile $JRE_ARGS"
+		echo "INFO exec java $JRE_OPTION $JRE_CP -jar $JAR_APP $JRE_ARGS"
 		java $JRE_OPTION $JRE_CP -jar $JAR_APP $JRE_ARGS
 	fi	
 fi
